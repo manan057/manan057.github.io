@@ -6,8 +6,8 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-	margin-top: 150px;
-  margin-bottom: 60px;
+	/*margin-top: 150px;
+  margin-bottom: 60px;*/
 }
 .footer {
   position: absolute;
@@ -24,10 +24,15 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-.container {
+.home-container {
   width: auto;
   max-width: 680px;
   padding: 0 15px;
+}
+
+.project-container {
+  width: auto;
+  max-width: 800px;
 }
 
 .typed-cursor{
